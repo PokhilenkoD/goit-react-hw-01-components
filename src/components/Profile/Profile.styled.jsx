@@ -7,6 +7,7 @@ export const Container = styled.div`
 
   background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
   width: 250px;
+  height: 350px;
   border-radius: 50% 20% / 10% 40%;
 `;
 
