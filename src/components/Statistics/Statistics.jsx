@@ -5,7 +5,7 @@ export const Statistics = ({ title, stats }) => {
 
   return (
     <Section>
-      {title.length ? <Title>{title}</Title> : null}
+      {title && <Title>{title}</Title>}
 
       <StatList>
         {stats.map(({ label, percentage, id }) => {

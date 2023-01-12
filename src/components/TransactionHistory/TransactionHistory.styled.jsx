@@ -28,11 +28,11 @@ export const Table = styled.table`
       );
     }
 
-    tr:nth-child(odd) {
+    tr:nth-of-type(odd) {
       background: #ebf3f9;
     }
 
-    th:first-child {
+    th:nth-of-type(1) {
       border-left: 1px solid #777777;
       border-bottom: 1px solid #777777;
       box-shadow: inset 1px 1px 0 #999999, inset 0 -1px 0 #999999;
